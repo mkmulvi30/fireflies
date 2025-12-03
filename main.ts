@@ -3,7 +3,7 @@ radio.onReceivedNumber(function (receivedNumber) {
 })
 radio.setTransmitPower(1)
 let clock = 0
-radio.setGroup(6)
+radio.setGroup(7)
 basic.forever(function () {
     if (clock >= 12) {
         radio.sendNumber(0)
